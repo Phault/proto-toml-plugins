@@ -17,5 +17,5 @@ proto install dprint
 
 ```shell
 proto tool add dprint "source:https://raw.githubusercontent.com/Phault/proto-toml-plugins/main/dprint/plugin.toml"
-proto pin dprint
+proto pin dprint 0.45.0
 ```
