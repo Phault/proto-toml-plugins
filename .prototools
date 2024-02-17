@@ -1,2 +1,3 @@
 [plugins]
 dprint = "source:dprint/plugin.toml"
+oxlint = "source:oxlint/plugin.toml"

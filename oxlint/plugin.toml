@@ -1,0 +1,23 @@
+name = "oxlint"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/oxc-project/oxc"
+version-pattern = "^oxlint_v((?<major>[0-9]+)\\.(?<minor>[0-9]+).(?<patch>[0-9]+))"
+
+[platform.linux]
+download-file = "oxlint-linux-{arch}-{libc}"
+
+[platform.macos]
+download-file = "oxlint-darwin-{arch}"
+
+[platform.windows]
+download-file = "oxlint-win32-{arch}.exe"
+
+[install]
+download-url = "https://github.com/oxc-project/oxc/releases/download/oxlint_v{version}/{download_file}"
+unpack = false
+
+[install.arch]
+aarch64 = "arm64"
+x86_64 = "x64"
