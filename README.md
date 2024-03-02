@@ -4,6 +4,7 @@ A small collection of proto TOML plugins.
 
 ## Plugins
 
+- [Dagger](dagger/README.md)
 - [dprint](dprint/README.md)
 - [oxlint](oxlint/README.md)
 

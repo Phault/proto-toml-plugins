@@ -1,6 +1,8 @@
+dagger = "0.10.0"
 dprint = "0.45.0"
 oxlint = "0.2.12"
 
 [plugins]
+dagger = "source:dagger/plugin.toml"
 dprint = "source:dprint/plugin.toml"
 oxlint = "source:oxlint/plugin.toml"
