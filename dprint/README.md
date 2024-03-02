@@ -13,7 +13,7 @@ proto plugin add dprint "source:https://raw.githubusercontent.com/Phault/proto-t
 proto install dprint
 ```
 
-## Per-project install
+### Per-project install
 
 ```shell
 proto plugin add dprint "source:https://raw.githubusercontent.com/Phault/proto-toml-plugins/main/dprint/plugin.toml"

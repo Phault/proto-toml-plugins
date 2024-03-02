@@ -13,7 +13,7 @@ proto plugin add oxlint "source:https://raw.githubusercontent.com/Phault/proto-t
 proto install oxlint
 ```
 
-## Per-project install
+### Per-project install
 
 ```shell
 proto plugin add oxlint "source:https://raw.githubusercontent.com/Phault/proto-toml-plugins/main/oxlint/plugin.toml"
