@@ -1,9 +1,11 @@
+actionlint = "1.6.27"
 dagger = "0.10.0"
 dprint = "0.45.0"
 infisical = "0.17.1"
 oxlint = "0.2.12"
 
 [plugins]
+actionlint = "source:actionlint/plugin.toml"
 dagger = "source:dagger/plugin.toml"
 dprint = "source:dprint/plugin.toml"
 infisical = "source:infisical/plugin.toml"
