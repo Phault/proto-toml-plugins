@@ -10,6 +10,7 @@ A small collection of proto TOML plugins.
 - [Infisical](infisical/README.md)
 - [oxlint](oxlint/README.md)
 - [Ruff](ruff/README.md)
+- [uv](uv/README.md)
 
 ## See also
 

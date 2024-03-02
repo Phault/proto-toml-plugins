@@ -1,0 +1,24 @@
+name = "uv"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/astral-sh/uv"
+
+[platform.linux]
+download-file = "uv-{arch}-unknown-linux-{libc}.tar.gz"
+checksum-file = "uv-{arch}-unknown-linux-{libc}.tar.gz.sha256"
+
+[platform.macos]
+download-file = "uv-{arch}-apple-darwin.tar.gz"
+checksum-file = "uv-{arch}-apple-darwin.tar.gz.sha256"
+
+[platform.windows]
+download-file = "uv-{arch}-pc-windows-msvc.zip"
+checksum-file = "uv-{arch}-pc-windows-msvc.zip.sha256"
+
+[install]
+download-url = "https://github.com/astral-sh/uv/releases/download/{version}/{download_file}"
+checksum-url = "https://github.com/astral-sh/uv/releases/download/{version}/{checksum_file}"
+
+[install.arch]
+x86 = "i686"
