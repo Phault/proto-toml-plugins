@@ -3,7 +3,7 @@ type = "cli"
 
 [resolve]
 git-url = "https://github.com/oxc-project/oxc"
-version-pattern = "^oxlint_v((?<major>[0-9]+)\\.(?<minor>[0-9]+).(?<patch>[0-9]+))"
+version-pattern = "^oxlint_v((?<major>[0-9]+)\\.(?<minor>[0-9]+)\\.(?<patch>[0-9]+))"
 
 [platform.linux]
 download-file = "oxlint-linux-{arch}-{libc}"
