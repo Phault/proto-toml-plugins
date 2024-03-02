@@ -9,6 +9,7 @@ A small collection of proto TOML plugins.
 - [dprint](dprint/README.md)
 - [Infisical](infisical/README.md)
 - [oxlint](oxlint/README.md)
+- [Ruff](ruff/README.md)
 
 ## See also
 
