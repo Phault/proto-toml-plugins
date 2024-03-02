@@ -1,3 +1,6 @@
+dprint = "0.45.0"
+oxlint = "0.2.12"
+
 [plugins]
 dprint = "source:dprint/plugin.toml"
 oxlint = "source:oxlint/plugin.toml"

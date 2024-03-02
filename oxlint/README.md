@@ -9,13 +9,13 @@ This is a community plugin and is thus not built-in to proto. In order to use it
 ### Global install
 
 ```shell
-proto tool add oxlint "source:https://raw.githubusercontent.com/Phault/proto-toml-plugins/main/oxlint/plugin.toml" --global
+proto plugin add oxlint "source:https://raw.githubusercontent.com/Phault/proto-toml-plugins/main/oxlint/plugin.toml" --global
 proto install oxlint
 ```
 
 ## Per-project install
 
 ```shell
-proto tool add oxlint "source:https://raw.githubusercontent.com/Phault/proto-toml-plugins/main/oxlint/plugin.toml"
-proto pin oxlint 0.2.8
+proto plugin add oxlint "source:https://raw.githubusercontent.com/Phault/proto-toml-plugins/main/oxlint/plugin.toml"
+proto pin oxlint latest --resolve
 ```

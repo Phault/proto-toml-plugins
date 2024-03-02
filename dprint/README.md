@@ -9,13 +9,13 @@ This is a community plugin and is thus not built-in to proto. In order to use it
 ### Global install
 
 ```shell
-proto tool add dprint "source:https://raw.githubusercontent.com/Phault/proto-toml-plugins/main/dprint/plugin.toml" --global
+proto plugin add dprint "source:https://raw.githubusercontent.com/Phault/proto-toml-plugins/main/dprint/plugin.toml" --global
 proto install dprint
 ```
 
 ## Per-project install
 
 ```shell
-proto tool add dprint "source:https://raw.githubusercontent.com/Phault/proto-toml-plugins/main/dprint/plugin.toml"
-proto pin dprint 0.45.0
+proto plugin add dprint "source:https://raw.githubusercontent.com/Phault/proto-toml-plugins/main/dprint/plugin.toml"
+proto pin dprint latest --resolve
 ```
