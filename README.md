@@ -6,6 +6,7 @@ A small collection of proto TOML plugins.
 
 - [act](act/README.md)
 - [actionlint](actionlint/README.md)
+- [Caddy](caddy/README.md)
 - [Dagger](dagger/README.md)
 - [dprint](dprint/README.md)
 - [Infisical](infisical/README.md)
