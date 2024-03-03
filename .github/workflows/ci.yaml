@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: "${{ matrix.config.target }}"
+    runs-on: "${{ matrix.config.os }}"
+    strategy:
+      matrix:
+        config:
+          - os: macos-12 # x86_64
+          - os: macos-14 # arm64
+          - os: windows-latest # x86_64
+          - os: ubuntu-20.04 # x86_64
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install
+        uses: moonrepo/setup-toolchain@v0
+        with:
+          auto-install: true
+          cache: false
