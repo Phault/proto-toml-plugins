@@ -1,0 +1,22 @@
+name = "Caddy"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/caddyserver/caddy"
+
+[platform.linux]
+download-file = "caddy_{version}_linux_{arch}.tar.gz"
+
+[platform.macos]
+download-file = "caddy_{version}_mac_{arch}.tar.gz"
+
+[platform.windows]
+download-file = "caddy_{version}_windows_{arch}.zip"
+
+[install]
+download-url = "https://github.com/caddyserver/caddy/releases/download/v{version}/{download_file}"
+
+[install.arch]
+arm = "armv6"
+aarch64 = "arm64"
+x86_64 = "amd64"
