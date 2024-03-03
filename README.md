@@ -12,6 +12,7 @@ A growing collection of proto TOML plugins.
 - [Infisical](infisical/README.md)
 - [just](just/README.md)
 - [mkcert](mkcert/README.md)
+- [Ninja](ninja/README.md)
 - [oxlint](oxlint/README.md)
 - [Ruff](ruff/README.md)
 - [shfmt](shfmt/README.md)
