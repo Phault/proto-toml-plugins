@@ -8,6 +8,7 @@ A small collection of proto TOML plugins.
 - [Dagger](dagger/README.md)
 - [dprint](dprint/README.md)
 - [Infisical](infisical/README.md)
+- [just](just/README.md)
 - [oxlint](oxlint/README.md)
 - [Ruff](ruff/README.md)
 - [uv](uv/README.md)
