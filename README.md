@@ -1,6 +1,6 @@
 # Collection of proto plugins
 
-A small collection of proto TOML plugins.
+A growing collection of proto TOML plugins.
 
 ## Plugins
 
@@ -11,6 +11,7 @@ A small collection of proto TOML plugins.
 - [dprint](dprint/README.md)
 - [Infisical](infisical/README.md)
 - [just](just/README.md)
+- [mkcert](mkcert/README.md)
 - [oxlint](oxlint/README.md)
 - [Ruff](ruff/README.md)
 - [uv](uv/README.md)
