@@ -6,6 +6,10 @@ infisical = "0.17.1"
 just = "1.24.0"
 oxlint = "0.2.12"
 
+# currently disabled due to https://github.com/moonrepo/starbase/issues/56
+# ruff = "0.3.0"
+# uv = "0.1.13"
+
 [plugins]
 act = "source:act/plugin.toml"
 actionlint = "source:actionlint/plugin.toml"
