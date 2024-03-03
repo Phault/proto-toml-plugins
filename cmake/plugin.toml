@@ -1,0 +1,30 @@
+name = "CMake"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/Kitware/CMake"
+
+[platform.linux]
+download-file = "cmake-{version}-linux-{arch}.tar.gz"
+checksum-file = "cmake-{version}-SHA-256.txt"
+archive-prefix = "cmake-{version}-linux-{arch}"
+bin-path = "bin/cmake"
+
+[platform.macos]
+download-file = "cmake-{version}-macos-universal.tar.gz"
+checksum-file = "cmake-{version}-SHA-256.txt"
+archive-prefix = "cmake-{version}-macos-universal"
+bin-path = "CMake.app/Contents/bin/cmake"
+
+[platform.windows]
+download-file = "cmake-{version}-windows-{arch}.zip"
+checksum-file = "cmake-{version}-SHA-256.txt"
+archive-prefix = "cmake-{version}-windows-{arch}"
+bin-path = "bin/cmake.exe"
+
+[install]
+download-url = "https://github.com/Kitware/CMake/releases/download/v{version}/{download_file}"
+checksum-url = "https://github.com/Kitware/CMake/releases/download/v{version}/{checksum_file}"
+
+[install.arch]
+x86 = "i386"
