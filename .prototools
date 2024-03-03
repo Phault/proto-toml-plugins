@@ -23,6 +23,7 @@ just = "source:just/plugin.toml"
 mkcert = "source:mkcert/plugin.toml"
 oxlint = "source:oxlint/plugin.toml"
 ruff = "source:ruff/plugin.toml"
+shfmt = "source:shfmt/plugin.toml"
 uv = "source:uv/plugin.toml"
 
 [settings]

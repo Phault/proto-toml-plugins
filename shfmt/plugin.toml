@@ -1,0 +1,27 @@
+name = "shfmt"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/mvdan/sh"
+
+[platform.linux]
+download-file = "shfmt_v{version}_linux_{arch}"
+checksum-file = "sha256sums.txt"
+
+[platform.macos]
+download-file = "shfmt_v{version}_darwin_{arch}"
+checksum-file = "sha256sums.txt"
+
+[platform.windows]
+download-file = "shfmt_v{version}_windows_{arch}.exe"
+checksum-file = "sha256sums.txt"
+
+[install]
+download-url = "https://github.com/mvdan/sh/releases/download/v{version}/{download_file}"
+checksum-url = "https://github.com/mvdan/sh/releases/download/v{version}/{checksum_file}"
+unpack = false
+
+[install.arch]
+x86 = "386"
+x86_64 = "amd64"
+aarch64 = "arm64"

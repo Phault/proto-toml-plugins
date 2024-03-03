@@ -14,6 +14,7 @@ A growing collection of proto TOML plugins.
 - [mkcert](mkcert/README.md)
 - [oxlint](oxlint/README.md)
 - [Ruff](ruff/README.md)
+- [shfmt](shfmt/README.md)
 - [uv](uv/README.md)
 
 ## See also
