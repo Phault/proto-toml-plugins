@@ -16,3 +16,7 @@ just = "source:just/plugin.toml"
 oxlint = "source:oxlint/plugin.toml"
 ruff = "source:ruff/plugin.toml"
 uv = "source:uv/plugin.toml"
+
+[settings]
+# disabled to avoid polutting their data with our testing / CI runs
+telemetry = false
