@@ -1,0 +1,22 @@
+name = "mkcert"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/FiloSottile/mkcert"
+
+[platform.linux]
+download-file = "mkcert-v{version}-linux-{arch}"
+
+[platform.macos]
+download-file = "mkcert-v{version}-darwin-{arch}"
+
+[platform.windows]
+download-file = "mkcert-v{version}-windows-{arch}.exe"
+
+[install]
+download-url = "https://github.com/FiloSottile/mkcert/releases/download/v{version}/{download_file}"
+unpack = false
+
+[install.arch]
+aarch64 = "arm64"
+x86_64 = "amd64"
