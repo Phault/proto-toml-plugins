@@ -31,5 +31,5 @@ shfmt = "source:shfmt/plugin.toml"
 uv = "source:uv/plugin.toml"
 
 [settings]
-# disabled to avoid polutting their data with our testing / CI runs
+# disabled to avoid polluting their data with our testing / CI runs
 telemetry = false
