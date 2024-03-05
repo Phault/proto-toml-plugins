@@ -9,10 +9,8 @@ just = "1.24.0"
 mkcert = "1.4.4"
 ninja = "1.11.1"
 oxlint = "0.2.12"
-
-# currently disabled due to https://github.com/moonrepo/starbase/issues/56
-# ruff = "0.3.0"
-# uv = "0.1.13"
+ruff = "0.3.0"
+uv = "0.1.13"
 
 [plugins]
 act = "source:act/plugin.toml"
