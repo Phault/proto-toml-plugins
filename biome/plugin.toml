@@ -1,0 +1,27 @@
+name = "Biome"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/biomejs/biome/"
+version-pattern = "^cli/v((?<major>[0-9]+)\\.(?<minor>[0-9]+)\\.(?<patch>[0-9]+)(?<pre>-[^+]+)?)"
+
+[platform.linux]
+download-file = "biome-linux-{arch}{libc}"
+
+[platform.macos]
+download-file = "biome-darwin-{arch}"
+
+[platform.windows]
+download-file = "biome-win32-{arch}.exe"
+
+[install]
+download-url = "https://github.com/biomejs/biome/releases/download/cli/v{version}/{download_file}"
+unpack = false
+
+[install.arch]
+aarch64 = "arm64"
+x86_64 = "x64"
+
+[install.libc]
+gnu = ""
+musl = "-musl"
