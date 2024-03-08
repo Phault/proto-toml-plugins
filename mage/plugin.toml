@@ -1,0 +1,27 @@
+name = "Mage"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/magefile/mage"
+
+[platform.linux]
+download-file = "mage_{version}_Linux-{arch}.tar.gz"
+checksum-file = "mage_{version}_checksums.txt"
+
+[platform.macos]
+download-file = "mage_{version}_macOS-{arch}.tar.gz"
+checksum-file = "mage_{version}_checksums.txt"
+
+[platform.windows]
+download-file = "mage_{version}_Windows-{arch}.zip"
+checksum-file = "mage_{version}_checksums.txt"
+
+[install]
+download-url = "https://github.com/magefile/mage/releases/download/v{version}/{download_file}"
+checksum-url = "https://github.com/magefile/mage/releases/download/v{version}/{checksum_file}"
+
+[install.arch]
+arm = "ARM"
+aarch64 = "ARM64"
+x86 = "32bit"
+x86_64 = "64bit"

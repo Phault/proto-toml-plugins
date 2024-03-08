@@ -14,6 +14,7 @@ A growing collection of proto TOML plugins.
 - [hyperfine](hyperfine/README.md)
 - [Infisical](infisical/README.md)
 - [just](just/README.md)
+- [Mage](mage/README.md)
 - [mkcert](mkcert/README.md)
 - [Ninja](ninja/README.md)
 - [oxlint](oxlint/README.md)
