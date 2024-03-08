@@ -19,6 +19,7 @@ A growing collection of proto TOML plugins.
 - [oxlint](oxlint/README.md)
 - [Ruff](ruff/README.md)
 - [shfmt](shfmt/README.md)
+- [Task](task/README.md)
 - [uv](uv/README.md)
 
 ## See also
