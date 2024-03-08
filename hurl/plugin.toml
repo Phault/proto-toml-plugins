@@ -1,0 +1,20 @@
+name = "Hurl"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/Orange-OpenSource/hurl"
+
+[platform.linux]
+download-file = "hurl-{version}-{arch}-unknown-linux-{libc}.tar.gz"
+archive-prefix = "hurl-{version}-{arch}-unknown-linux-{libc}"
+
+[platform.macos]
+download-file = "hurl-{version}-{arch}-apple-darwin.tar.gz"
+archive-prefix = "hurl-{version}-{arch}-apple-darwin"
+
+[platform.windows]
+download-file = "hurl-{version}-{arch}-pc-windows-msvc.zip"
+archive-prefix = "hurl-{version}-{arch}-pc-windows-msvc"
+
+[install]
+download-url = "https://github.com/Orange-OpenSource/hurl/releases/download/{version}/{download_file}"
