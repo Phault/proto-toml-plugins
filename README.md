@@ -6,6 +6,7 @@ A growing collection of proto TOML plugins.
 
 - [act](act/README.md)
 - [actionlint](actionlint/README.md)
+- [Bazel](bazel/README.md)
 - [Biome](biome/README.md)
 - [Caddy](caddy/README.md)
 - [CMake](cmake/README.md)
