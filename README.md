@@ -20,6 +20,7 @@ A growing collection of proto TOML plugins.
 - [mkcert](mkcert/README.md)
 - [Ninja](ninja/README.md)
 - [oxlint](oxlint/README.md)
+- [rattler-build](rattler-build/README.md)
 - [Ruff](ruff/README.md)
 - [shfmt](shfmt/README.md)
 - [Task](task/README.md)
