@@ -11,6 +11,7 @@ A growing collection of proto TOML plugins.
 - [CMake](cmake/README.md)
 - [Dagger](dagger/README.md)
 - [dprint](dprint/README.md)
+- [Gum](gum/README.md)
 - [Hurl](hurl/README.md)
 - [hyperfine](hyperfine/README.md)
 - [Infisical](infisical/README.md)
