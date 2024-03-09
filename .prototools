@@ -30,6 +30,7 @@ task = "3.35.1"
 traefik = "2.11.0"
 trufflehog = "3.69.0"
 uv = "0.1.13"
+wizer = "4.0.0"
 
 [plugins]
 act = "source:act/plugin.toml"
@@ -63,6 +64,7 @@ task = "source:task/plugin.toml"
 traefik = "source:traefik/plugin.toml"
 trufflehog = "source:trufflehog/plugin.toml"
 uv = "source:uv/plugin.toml"
+wizer = "source:wizer/plugin.toml"
 
 [settings]
 # disabled to avoid polluting their data with our testing / CI runs
