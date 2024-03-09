@@ -18,6 +18,7 @@ A growing collection of proto TOML plugins.
 - [Hurl](hurl/README.md)
 - [hyperfine](hyperfine/README.md)
 - [Infisical](infisical/README.md)
+- [JiraCLI](jira/README.md)
 - [just](just/README.md)
 - [Mage](mage/README.md)
 - [mkcert](mkcert/README.md)
