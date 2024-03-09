@@ -1,0 +1,32 @@
+name = "JiraCLI"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/ankitpokhrel/jira-cli"
+
+[platform.linux]
+download-file = "jira_{version}_linux_{arch}.tar.gz"
+checksum-file = "checksums.txt"
+archive-prefix = "jira_{version}_linux_{arch}"
+bin-path = "bin/jira"
+
+[platform.macos]
+download-file = "jira_{version}_macOS_{arch}.tar.gz"
+checksum-file = "checksums.txt"
+archive-prefix = "jira_{version}_macOS_{arch}"
+bin-path = "bin/jira"
+
+[platform.windows]
+download-file = "jira_{version}_windows_{arch}.zip"
+checksum-file = "checksums.txt"
+archive-prefix = "jira_{version}_windows_{arch}"
+bin-path = "bin\\jira.exe"
+
+[install]
+download-url = "https://github.com/ankitpokhrel/jira-cli/releases/download/v{version}/{download_file}"
+checksum-url = "https://github.com/ankitpokhrel/jira-cli/releases/download/v{version}/{checksum_file}"
+
+[install.arch]
+arm = "armv6"
+aarch64 = "arm64"
+x86 = "i386"
