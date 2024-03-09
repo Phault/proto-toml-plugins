@@ -1,4 +1,4 @@
-name = "ninja"
+name = "Ninja"
 type = "cli"
 
 [resolve]
