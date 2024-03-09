@@ -25,6 +25,7 @@ A growing collection of proto TOML plugins.
 - [Octopus CLI](octopus/README.md)
 - [rattler-build](rattler-build/README.md)
 - [Ruff](ruff/README.md)
+- [ShellCheck](shellcheck/README.md)
 - [shfmt](shfmt/README.md)
 - [Task](task/README.md)
 - [Traefik](traefik/README.md)
