@@ -13,8 +13,8 @@ bin-path = "bin/cmake"
 [platform.macos]
 download-file = "cmake-{version}-macos-universal.tar.gz"
 checksum-file = "cmake-{version}-SHA-256.txt"
-archive-prefix = "cmake-{version}-macos-universal"
-bin-path = "CMake.app/Contents/bin/cmake"
+archive-prefix = "cmake-{version}-macos-universal/CMake.app/Contents"
+bin-path = "bin/cmake"
 
 [platform.windows]
 download-file = "cmake-{version}-windows-{arch}.zip"
