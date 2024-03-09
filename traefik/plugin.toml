@@ -1,0 +1,27 @@
+name = "Traefik"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/traefik/traefik"
+
+[platform.linux]
+download-file = "traefik_v{version}_linux_{arch}.tar.gz"
+checksum-file = "traefik_v{version}_checksums.txt"
+
+[platform.macos]
+download-file = "traefik_v{version}_darwin_{arch}.tar.gz"
+checksum-file = "traefik_v{version}_checksums.txt"
+
+[platform.windows]
+download-file = "traefik_v{version}_windows_{arch}.zip"
+checksum-file = "traefik_v{version}_checksums.txt"
+
+[install]
+download-url = "https://github.com/traefik/traefik/releases/download/v{version}/{download_file}"
+checksum-url = "https://github.com/traefik/traefik/releases/download/v{version}/{checksum_file}"
+
+[install.arch]
+arm = "armv6"
+aarch64 = "arm64"
+x86 = "386"
+x86_64 = "amd64"
