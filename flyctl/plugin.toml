@@ -1,0 +1,29 @@
+name = "flyctl"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/superfly/flyctl"
+# they use yyyy.mm.dd versioning for prereleases and some ancient stable versions without downloads
+version-pattern = "^v((?<major>[0-9]{1,3})\\.(?<minor>[0-9]+)\\.(?<patch>[0-9]+)(?<pre>-[0-9a-zA-Z\\.]+)?(?<build>\\+[-0-9a-zA-Z\\.]+)?)$"
+
+[platform.linux]
+download-file = "flyctl_{version}_Linux_{arch}.tar.gz"
+checksum-file = "checksums.txt"
+bin-path = "flyctl"
+
+[platform.macos]
+download-file = "flyctl_{version}_macOS_{arch}.tar.gz"
+checksum-file = "checksums.txt"
+bin-path = "flyctl"
+
+[platform.windows]
+download-file = "flyctl_{version}_Windows_{arch}.zip"
+checksum-file = "checksums.txt"
+bin-path = "flyctl.exe"
+
+[install]
+download-url = "https://github.com/superfly/flyctl/releases/download/v{version}/{download_file}"
+checksum-url = "https://github.com/superfly/flyctl/releases/download/v{version}/{checksum_file}"
+
+[install.arch]
+aarch64 = "arm64"
