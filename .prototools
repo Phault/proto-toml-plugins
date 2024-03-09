@@ -13,6 +13,7 @@ mkcert = "1.4.4"
 ninja = "1.11.1"
 oxlint = "0.2.12"
 ruff = "0.3.0"
+task = "3.35.1"
 uv = "0.1.13"
 
 [plugins]
