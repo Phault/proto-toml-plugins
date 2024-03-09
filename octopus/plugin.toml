@@ -1,0 +1,25 @@
+name = "Octopus CLI"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/OctopusDeploy/cli"
+
+[platform.linux]
+download-file = "octopus_{version}_linux_{arch}.tar.gz"
+checksum-file = "octopus_{version}_SHA256SUMS"
+
+[platform.macos]
+download-file = "octopus_{version}_macOS_{arch}.tar.gz"
+checksum-file = "octopus_{version}_SHA256SUMS"
+
+[platform.windows]
+download-file = "octopus_{version}_windows_{arch}.zip"
+checksum-file = "octopus_{version}_SHA256SUMS"
+
+[install]
+download-url = "https://github.com/OctopusDeploy/cli/releases/download/v{version}/{download_file}"
+checksum-url = "https://github.com/OctopusDeploy/cli/releases/download/v{version}/{checksum_file}"
+
+[install.arch]
+aarch64 = "arm64"
+x86_64 = "amd64"
