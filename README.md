@@ -26,6 +26,7 @@ A growing collection of proto TOML plugins.
 - [Ruff](ruff/README.md)
 - [shfmt](shfmt/README.md)
 - [Task](task/README.md)
+- [TruffleHog](trufflehog/README.md)
 - [uv](uv/README.md)
 
 ## See also

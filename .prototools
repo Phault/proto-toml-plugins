@@ -20,6 +20,7 @@ oxlint = "0.2.12"
 rattler-build = "0.13.0"
 ruff = "0.3.0"
 task = "3.35.1"
+trufflehog = "3.69.0"
 uv = "0.1.13"
 
 [plugins]
@@ -45,6 +46,7 @@ rattler-build = "source:rattler-build/plugin.toml"
 ruff = "source:ruff/plugin.toml"
 shfmt = "source:shfmt/plugin.toml"
 task = "source:task/plugin.toml"
+trufflehog = "source:trufflehog/plugin.toml"
 uv = "source:uv/plugin.toml"
 
 [settings]
