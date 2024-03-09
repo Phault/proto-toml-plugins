@@ -13,6 +13,7 @@ A growing collection of proto TOML plugins.
 - [Cosign](cosign/README.md)
 - [Dagger](dagger/README.md)
 - [dprint](dprint/README.md)
+- [Gitleaks](gitleaks/README.md)
 - [Gum](gum/README.md)
 - [Hurl](hurl/README.md)
 - [hyperfine](hyperfine/README.md)
