@@ -34,6 +34,7 @@ A growing collection of proto TOML plugins.
 - [Traefik](traefik/README.md)
 - [TruffleHog](trufflehog/README.md)
 - [uv](uv/README.md)
+- [Wizer](wizer/README.md)
 
 ## See also
 

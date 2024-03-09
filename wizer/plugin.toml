@@ -1,0 +1,20 @@
+name = "Wizer"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/bytecodealliance/wizer"
+
+[platform.linux]
+download-file = "wizer-v{version}-{arch}-linux.tar.xz"
+archive-prefix = "wizer-v{version}-{arch}-linux"
+
+[platform.macos]
+download-file = "wizer-v{version}-{arch}-macos.tar.xz"
+archive-prefix = "wizer-v{version}-{arch}-macos"
+
+[platform.windows]
+download-file = "wizer-v{version}-{arch}-windows.zip"
+archive-prefix = "wizer-v{version}-{arch}-windows"
+
+[install]
+download-url = "https://github.com/bytecodealliance/wizer/releases/download/v{version}/{download_file}"
