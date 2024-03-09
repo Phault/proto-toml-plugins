@@ -10,6 +10,7 @@ A growing collection of proto TOML plugins.
 - [Biome](biome/README.md)
 - [Caddy](caddy/README.md)
 - [CMake](cmake/README.md)
+- [Cosign](cosign/README.md)
 - [Dagger](dagger/README.md)
 - [dprint](dprint/README.md)
 - [Gum](gum/README.md)
