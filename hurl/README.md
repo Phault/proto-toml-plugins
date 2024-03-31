@@ -2,9 +2,10 @@
 
 [Hurl](https://hurl.dev/) plugin for [proto](https://github.com/moonrepo/proto).
 
-> [!NOTE]
-> Only the `hurl` binary is added to PATH, `hurlfmt` is not.
-> This is a limitation of TOML plugins.
+Included:
+
+- hurl
+- hurlfmt
 
 ## Installation
 

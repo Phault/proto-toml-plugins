@@ -18,3 +18,9 @@ archive-prefix = "hurl-{version}-{arch}-pc-windows-msvc"
 
 [install]
 download-url = "https://github.com/Orange-OpenSource/hurl/releases/download/{version}/{download_file}"
+
+[install.primary]
+exe-path = "hurl"
+
+[install.secondary.hurlfmt]
+exe-path = "hurlfmt"
