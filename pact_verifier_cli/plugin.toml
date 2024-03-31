@@ -18,7 +18,7 @@ bin-path = "pact_verifier_cli-osx-{arch}"
 [platform.windows]
 download-file = "pact_verifier_cli-windows-{arch}.exe.gz"
 checksum-file = "pact_verifier_cli-windows-{arch}.exe.gz.sha256"
-bin-path = "pact_verifier_cli-windows-{arch}"
+bin-path = "pact_verifier_cli-windows-{arch}.exe"
 
 [install]
 download-url = "https://github.com/pact-foundation/pact-reference/releases/download/pact_verifier_cli-v{version}/{download_file}"
