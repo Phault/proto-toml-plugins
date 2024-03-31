@@ -15,6 +15,7 @@ A growing collection of proto TOML plugins.
 - [dprint](dprint/README.md)
 - [flyctl](flyctl/README.md)
 - [Gitleaks](gitleaks/README.md)
+- [Grain](grain/README.md)
 - [Gum](gum/README.md)
 - [Hurl](hurl/README.md)
 - [hyperfine](hyperfine/README.md)
