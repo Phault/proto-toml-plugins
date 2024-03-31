@@ -1,0 +1,29 @@
+name = "Pact Verifier CLI"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/pact-foundation/pact-reference"
+version-pattern = "^pact_verifier_cli-v((?<major>[0-9]+)\\.(?<minor>[0-9]+)\\.(?<patch>[0-9]+))"
+
+[platform.linux]
+download-file = "pact_verifier_cli-linux-{arch}{libc}.gz"
+checksum-file = "pact_verifier_cli-linux-{arch}{libc}.gz.sha256"
+bin-path = "pact_verifier_cli-linux-{arch}{libc}"
+
+[platform.macos]
+download-file = "pact_verifier_cli-osx-{arch}.gz"
+checksum-file = "pact_verifier_cli-osx-{arch}.gz.sha256"
+bin-path = "pact_verifier_cli-osx-{arch}"
+
+[platform.windows]
+download-file = "pact_verifier_cli-windows-{arch}.exe.gz"
+checksum-file = "pact_verifier_cli-windows-{arch}.exe.gz.sha256"
+bin-path = "pact_verifier_cli-windows-{arch}"
+
+[install]
+download-url = "https://github.com/pact-foundation/pact-reference/releases/download/pact_verifier_cli-v{version}/{download_file}"
+checksum-url = "https://github.com/pact-foundation/pact-reference/releases/download/pact_verifier_cli-v{version}/{checksum_file}"
+
+[install.libc]
+gnu = ""
+musl = "-musl"

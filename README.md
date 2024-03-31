@@ -26,6 +26,7 @@ A growing collection of proto TOML plugins.
 - [Ninja](ninja/README.md)
 - [oxlint](oxlint/README.md)
 - [Octopus CLI](octopus/README.md)
+- [Pact Verifier CLI](pact_verifier_cli/README.md)
 - [rattler-build](rattler-build/README.md)
 - [Ruff](ruff/README.md)
 - [ShellCheck](shellcheck/README.md)
