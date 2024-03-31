@@ -1,0 +1,25 @@
+name = "Grain"
+type = "language"
+
+[resolve]
+git-url = "https://github.com/grain-lang/grain"
+version-pattern = "^grain-v((?<major>[0-9]+)\\.(?<minor>[0-9]+)\\.(?<patch>[0-9]+)(?<pre>-[^+]+)?)"
+
+[platform.linux]
+archs = ["x64"]
+download-file = "grain-linux-{arch}"
+
+[platform.macos]
+archs = ["x64"]
+download-file = "grain-mac-{arch}"
+
+[platform.windows]
+archs = ["x64"]
+download-file = "grain-win-{arch}.exe"
+
+[install]
+download-url = "https://github.com/grain-lang/grain/releases/download/grain-v{version}/{download_file}"
+unpack = false
+
+[install.arch]
+x86_64 = "x64"
