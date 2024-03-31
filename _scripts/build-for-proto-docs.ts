@@ -60,14 +60,8 @@ const prototools = parse(
 
 const markdownLinkRegex = /\[[^\]]+\]\(([^)]+)\)/;
 
-const blacklist = [
-  // registered as flyctl
-  "fly",
-];
-
 const newTools = Object.entries(prototools.plugins)
   .filter(([id]) => !existingTools[id])
-  .filter(([id]) => !blacklist.includes(id))
   .map(([id, source]) => {
     const relativePluginPath = source.split(":").at(-1)!;
 

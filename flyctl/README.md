@@ -2,27 +2,25 @@
 
 [flyctl](https://github.com/superfly/flyctl) plugin for [proto](https://github.com/moonrepo/proto).
 
-## Installation
+Included:
 
-> [!NOTE]
-> This tool is usually available both as `flyctl` and the newer `fly` alias.
->
-> The instructions below assume you're using the new alias, if not replace `fly` with `flyctl`.
->
-> If you need both, you'll have to register and install the plugin twice.
+- flyctl
+- fly (alias of `flyctl`)
+
+## Installation
 
 This is a community plugin and is thus not built-in to proto. In order to use it, first either add it to your global or project-based `.prototools` by running:
 
 ### Global install
 
 ```shell
-proto plugin add fly "source:https://raw.githubusercontent.com/Phault/proto-toml-plugins/main/flyctl/plugin.toml" --global
-proto install fly
+proto plugin add flyctl "source:https://raw.githubusercontent.com/Phault/proto-toml-plugins/main/flyctl/plugin.toml" --global
+proto install flyctl
 ```
 
 ### Per-project install
 
 ```shell
-proto plugin add fly "source:https://raw.githubusercontent.com/Phault/proto-toml-plugins/main/flyctl/plugin.toml"
-proto pin fly latest --resolve
+proto plugin add flyctl "source:https://raw.githubusercontent.com/Phault/proto-toml-plugins/main/flyctl/plugin.toml"
+proto pin flyctl latest --resolve
 ```
