@@ -2,9 +2,12 @@
 
 [CMake](https://cmake.org) plugin for [proto](https://github.com/moonrepo/proto).
 
-> [!IMPORTANT]
-> Due to a limitation of TOML-based plugins, only the `cmake` executable is available. 
-> Related issue: https://github.com/moonrepo/schema-plugin/issues/21.
+Includes:
+
+- cmake
+- ccmake
+- cpack
+- ctest
 
 ## Installation
 
