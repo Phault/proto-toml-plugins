@@ -33,6 +33,7 @@ task = "3.35.1"
 traefik = "2.11.0"
 trufflehog = "3.69.0"
 uv = "0.1.13"
+watchexec = "2.0.0"
 wizer = "4.0.0"
 
 [plugins]
@@ -68,6 +69,7 @@ task = "source:task/plugin.toml"
 traefik = "source:traefik/plugin.toml"
 trufflehog = "source:trufflehog/plugin.toml"
 uv = "source:uv/plugin.toml"
+watchexec = "source:watchexec/plugin.toml"
 wizer = "source:wizer/plugin.toml"
 
 [settings]
