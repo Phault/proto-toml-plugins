@@ -5,7 +5,7 @@ type = "cli"
 git-url = "https://github.com/prefix-dev/pixi"
 
 [platform.linux]
-download-file = "pixi-{arch}-unknown-linux{libc}.tar.gz"
+download-file = "pixi-{arch}-unknown-linux-musl.tar.gz"
 
 [platform.macos]
 download-file = "pixi-{arch}-apple-darwin.tar.gz"
@@ -15,7 +15,3 @@ download-file = "pixi-{arch}-pc-windows-msvc.zip"
 
 [install]
 download-url = "https://github.com/prefix-dev/pixi/releases/download/v{version}/{download_file}"
-
-[install.libc]
-gnu = ""
-musl = "-musl"
