@@ -1,0 +1,17 @@
+name = "pixi"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/prefix-dev/pixi"
+
+[platform.linux]
+download-file = "pixi-{arch}-unknown-linux-musl.tar.gz"
+
+[platform.macos]
+download-file = "pixi-{arch}-apple-darwin.tar.gz"
+
+[platform.windows]
+download-file = "pixi-{arch}-pc-windows-msvc.zip"
+
+[install]
+download-url = "https://github.com/prefix-dev/pixi/releases/download/v{version}/{download_file}"
