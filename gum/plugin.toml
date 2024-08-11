@@ -5,14 +5,17 @@ type = "cli"
 git-url = "https://github.com/charmbracelet/gum"
 
 [platform.linux]
+archive-prefix = "gum_{version}_Linux_{arch}"
 download-file = "gum_{version}_Linux_{arch}.tar.gz"
 checksum-file = "checksums.txt"
 
 [platform.macos]
+archive-prefix = "gum_{version}_Darwin_{arch}"
 download-file = "gum_{version}_Darwin_{arch}.tar.gz"
 checksum-file = "checksums.txt"
 
 [platform.windows]
+archive-prefix = "gum_{version}_Windows_{arch}"
 download-file = "gum_{version}_Windows_{arch}.zip"
 checksum-file = "checksums.txt"
 
