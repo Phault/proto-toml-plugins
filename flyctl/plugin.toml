@@ -8,15 +8,15 @@ version-pattern = "^v((?<major>[0-9]{1,3})\\.(?<minor>[0-9]+)\\.(?<patch>[0-9]+)
 
 [platform.linux]
 download-file = "flyctl_{version}_Linux_{arch}.tar.gz"
-checksum-file = "checksums.txt"
+checksum-file = "flyctl_{version}_checksums.txt"
 
 [platform.macos]
 download-file = "flyctl_{version}_macOS_{arch}.tar.gz"
-checksum-file = "checksums.txt"
+checksum-file = "flyctl_{version}_checksums.txt"
 
 [platform.windows]
 download-file = "flyctl_{version}_Windows_{arch}.zip"
-checksum-file = "checksums.txt"
+checksum-file = "flyctl_{version}_checksums.txt"
 
 [install]
 download-url = "https://github.com/superfly/flyctl/releases/download/v{version}/{download_file}"
