@@ -25,3 +25,10 @@ checksum-url = "https://github.com/astral-sh/uv/releases/download/{version}/{che
 
 [install.arch]
 x86 = "i686"
+
+[install.exes.uv]
+exe-path = "uv"
+primary = true
+
+[install.exes.uvx]
+exe-path = "uvx"
