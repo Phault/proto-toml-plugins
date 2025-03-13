@@ -1,0 +1,23 @@
+name = "atmos"
+type = "cli"
+
+[resolve]
+git-url = "https://github.com/cloudposse/atmos"
+
+[platform.linux]
+download-file = "atmos_{version}_{os}_{arch}"
+
+[platform.macos]
+download-file = "atmos_{version}_darwin_{arch}"
+
+[platform.windows]
+download-file = "atmos_{version}_{os}_{arch}.exe"
+
+[install]
+download-url = "https://github.com/cloudposse/atmos/releases/download/v{version}/{download_file}"
+checksum-url = "https://github.com/cloudposse/atmos/releases/download/v{version}/atmos_{version}_SHA256SUMS"
+
+[install.arch]
+x86 = "386"
+x86_64 = "amd64"
+aarch64 = "arm64"
